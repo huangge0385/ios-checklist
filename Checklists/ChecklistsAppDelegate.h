@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ChecklistsAppDelegate.h
 //  Checklists
 //
 //  Created by 黄舸 on 15-3-9.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-- (IBAction)addItem:(id)sender;
+@interface ChecklistsAppDelegate : UIResponder <UIApplicationDelegate>
 
+@property (strong, nonatomic) UIWindow *window;
 
 @end
-

@@ -2,15 +2,17 @@
 //  main.m
 //  Checklists
 //
-//  Created by 黄舸 on 15-3-9.
-//  Copyright (c) 2015年 ioslearning. All rights reserved.
+//  Created by Matthijs on 30-09-13.
+//  Copyright (c) 2013 Happy Bubsy. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
 
-int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
+#import "ChecklistsAppDelegate.h"
+
+int main(int argc, char * argv[])
+{
+	@autoreleasepool {
+	    return UIApplicationMain(argc, argv, nil, NSStringFromClass([ChecklistsAppDelegate class]));
+	}
 }
