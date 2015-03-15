@@ -1,4 +1,4 @@
-# To-do-list app,
+# To-do-list app
 Delegate was used in ItemDetailViewController, ListDetailViewController etc. User experience is important, so NSUserDefaults was used to store message for further function when user leave and re-enter app. Data was handled with DataModel.m and DataModel.h. I did MVC in this way. 
 
 
